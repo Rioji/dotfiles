@@ -266,6 +266,9 @@ defaults write com.apple.dock autohide -bool true
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
 #defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 
+# Enable Application Expose gestion
+defaults write com.apple.dock showAppExposeGestureEnabled -int 1
+
 # Reset Launchpad, but keep the desktop wallpaper intact
 #find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
 
